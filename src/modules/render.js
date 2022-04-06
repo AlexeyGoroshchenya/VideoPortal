@@ -1,14 +1,11 @@
-import { database } from './database';
-
-export const render = () => {
+export const render = (arr) => {
 
     const galery = document.querySelector('.galery');
     const btnMore = document.querySelector('.button__btn');
 
-    let numberGaps = (Math.floor((galery.clientWidth - 110) / 210) - 1) * 20;
-    let numberCards = Math.floor((galery.clientWidth - 110 - numberGaps) / 210);
+    let numberCards = Math.floor((galery.clientWidth - 110 - ((Math.floor((galery.clientWidth - 110) / 210) - 1) * 20)) / 210);
 
-    const renderCard = (item) => {
+    const renderCard = (item, index) => {
 
         const galeryCard = document.createElement('div');
         galeryCard.classList.add('galery__card')
@@ -24,25 +21,30 @@ export const render = () => {
         `;
         galery.append(galeryCard);
 
+        if ((index + 1) > (numberCards * 2)) {
+            galeryCard.classList.add('disabled-card')
+        }
     }
 
-    const startRender = () => {
+    const startRender = (array) => {
 
-        database.forEach((item, index) => {
-            if (index < (numberCards * 2)) {
-                renderCard(item);
-            }
+        galery.innerHTML = "";
+
+        array.forEach((item, index) => {
+            renderCard(item, index);
         })
     }
 
     const moreRender = () => {
-        let rendered = document.querySelectorAll('.galery__card').length
 
-        if (rendered) {
-            database.forEach((item, index) => {
+        // let rendered = document.querySelectorAll('.galery__card')
+        let disabled = document.querySelectorAll('.disabled-card')
 
-                if (index > rendered && index <= (rendered + numberCards)) {
-                    renderCard(item)
+        // console.log(rendered);
+        if (disabled.length) {
+            disabled.forEach((item, index) => {
+                if (index < numberCards) {
+                    item.classList.remove('disabled-card')
                 }
             })
         }
@@ -53,6 +55,7 @@ export const render = () => {
         moreRender()
     })
 
-    startRender();
+    startRender(arr);
+
 
 }

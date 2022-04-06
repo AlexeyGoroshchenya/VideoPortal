@@ -351,6 +351,22 @@ input::-webkit-input-placeholder {
   padding-right: 30px;
 }
 
+.active__label {
+  color: red;
+}
+
+/*
+.active__label::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  height: 5px;
+  width: 100%;
+  background-color: #b80101;
+  z-index: 2;
+}
+*/
 .menu__search {
   padding-top: 35px;
   display: flex;
@@ -360,6 +376,14 @@ input::-webkit-input-placeholder {
 }
 
 .menu__checkboxes {}
+
+.menu__checkboxes:last-child {
+  padding-left: 5px;
+}
+
+.menu__genre {
+  padding-left: 10px;
+}
 
 .menu__genre select {
   height: 30px;
@@ -375,6 +399,7 @@ input::-webkit-input-placeholder {
 .menu__years {
   width: 50%;
   display: flex;
+  padding-left: 10px;
 }
 
 .menu__years p {
@@ -386,6 +411,7 @@ input::-webkit-input-placeholder {
   position: relative;
   pointer-events: none;
   transform: translateY(-4px);
+
 }
 
 .menu__range input[type="range"] {
@@ -472,10 +498,11 @@ input::-webkit-input-placeholder {
 
 .menu__sort {
   display: flex;
+  padding-left: 10px;
 }
 
 .menu__sort select {
-  transform: translateY(-5px);
+  transform: translateY(-8px);
   background-color: #323b41;
   font-size: 16px;
   line-height: 1.2;
@@ -498,6 +525,10 @@ input::-webkit-input-placeholder {
   height: 400px;
   background-color: #3a4750;
   position: relative;
+}
+
+.disabled-card {
+  display: none;
 }
 
 .galery__image {}
