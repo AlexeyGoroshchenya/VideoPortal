@@ -12,8 +12,8 @@ export const database = [
         audience: "81%",
         genres: "Crime, Thriller, Heist",
         cast: "Úrsula Corberó, Álvaro Morte, Alba Flores, Itziar Ituño",
-        img: "img/rounded_rectangle_2_17.png",
-        preview: "img/galery/rectangle_5_copy_298.png"
+        img: "dist/img/rounded_rectangle_2_17.png",
+        preview: "dist/img/galery/rectangle_5_copy_298.png"
     },
     {
         title: "Some shit 2",
@@ -25,8 +25,8 @@ export const database = [
         audience: "31%",
         genres: "Crime, Heist",
         cast: "Úrsula Morte, Alba Flores, Itziar Habenskiy",
-        img: "img/rounded_rectangle_2_17.png",
-        preview: "img/galery/rectangle_5_copy_493.png"
+        img: "dist/img/rounded_rectangle_2_17.png",
+        preview: "dist/img/galery/rectangle_5_copy_493.png"
     },
     {
         title: "Taykatuvan 3",
@@ -38,8 +38,8 @@ export const database = [
         audience: "21%",
         genres: "Crime, Heist",
         cast: "Alba Flores, Itziar Habenskiy",
-        img: "img/rounded_rectangle_2_17.png",
-        preview: "img/galery/rectangle_5_copy_110.png"
+        img: "dist/img/rounded_rectangle_2_17.png",
+        preview: "dist/img/galery/rectangle_5_copy_110.png"
     },
     {
         title: "Money Heist 4",
@@ -54,8 +54,8 @@ export const database = [
         audience: "81%",
         genres: "Crime, Thriller, Heist",
         cast: "Úrsula Corberó, Álvaro Morte, Alba Flores, Itziar Ituño",
-        img: "img/rounded_rectangle_2_17.png",
-        preview: "img/galery/rectangle_5_copy_298.png"
+        img: "dist/img/rounded_rectangle_2_17.png",
+        preview: "dist/img/galery/rectangle_5_copy_298.png"
     },
     {
         title: "Some shit 5",
@@ -67,8 +67,8 @@ export const database = [
         audience: "81%",
         genres: "Crime, Heist",
         cast: "Úrsula Morte, Alba Flores, Itziar Habenskiy",
-        img: "img/rounded_rectangle_2_17.png",
-        preview: "img/galery/rectangle_5_copy_493.png"
+        img: "dist/img/rounded_rectangle_2_17.png",
+        preview: "dist/img/galery/rectangle_5_copy_493.png"
     },
     {
         title: "Taykatuvan 6",
@@ -80,8 +80,8 @@ export const database = [
         audience: "81%",
         genres: "Crime, Heist",
         cast: "Alba Flores, Itziar Habenskiy",
-        img: "img/rounded_rectangle_2_17.png",
-        preview: "img/galery/rectangle_5_copy_110.png"
+        img: "dist/img/rounded_rectangle_2_17.png",
+        preview: "dist/img/galery/rectangle_5_copy_110.png"
     },
     {
         title: "Money Heist 7",
@@ -96,8 +96,8 @@ export const database = [
         audience: "81%",
         genres: "Crime, Thriller, Heist",
         cast: "Úrsula Corberó, Álvaro Morte, Alba Flores, Itziar Ituño",
-        img: "img/rounded_rectangle_2_17.png",
-        preview: "img/galery/rectangle_5_copy_298.png"
+        img: "dist/img/rounded_rectangle_2_17.png",
+        preview: "dist/img/galery/rectangle_5_copy_298.png"
     },
     {
         title: "Some shit 8",
@@ -109,8 +109,8 @@ export const database = [
         audience: "81%",
         genres: "Crime, Heist",
         cast: "Úrsula Morte, Alba Flores, Itziar Habenskiy",
-        img: "img/rounded_rectangle_2_17.png",
-        preview: "img/galery/rectangle_5_copy_493.png"
+        img: "dist/img/rounded_rectangle_2_17.png",
+        preview: "dist/img/galery/rectangle_5_copy_493.png"
     },
     {
         title: "Taykatuvan 9",
@@ -122,8 +122,8 @@ export const database = [
         audience: "81%",
         genres: "Crime, Heist",
         cast: "Alba Flores, Itziar Habenskiy",
-        img: "img/rounded_rectangle_2_17.png",
-        preview: "img/galery/rectangle_5_copy_110.png"
+        img: "dist/img/rounded_rectangle_2_17.png",
+        preview: "dist/img/galery/rectangle_5_copy_110.png"
     },
     {
         title: "Money Heist 10",
@@ -138,8 +138,8 @@ export const database = [
         audience: "81%",
         genres: "Crime, Thriller, Heist",
         cast: "Úrsula Corberó, Álvaro Morte, Alba Flores, Itziar Ituño",
-        img: "img/rounded_rectangle_2_17.png",
-        preview: "img/galery/rectangle_5_copy_298.png"
+        img: "dist/img/rounded_rectangle_2_17.png",
+        preview: "dist/img/galery/rectangle_5_copy_298.png"
     },
     {
         title: "Some shit 11",
@@ -151,8 +151,8 @@ export const database = [
         audience: "81%",
         genres: "Crime, Heist",
         cast: "Úrsula Morte, Alba Flores, Itziar Habenskiy",
-        img: "img/rounded_rectangle_2_17.png",
-        preview: "img/galery/rectangle_5_copy_493.png"
+        img: "dist/img/rounded_rectangle_2_17.png",
+        preview: "dist/img/galery/rectangle_5_copy_493.png"
     },
     {
         title: "Taykatuvan 12",
@@ -164,8 +164,8 @@ export const database = [
         audience: "81%",
         genres: "Crime, Heist",
         cast: "Alba Flores, Itziar Habenskiy",
-        img: "img/rounded_rectangle_2_17.png",
-        preview: "img/galery/rectangle_5_copy_110.png"
+        img: "dist/img/rounded_rectangle_2_17.png",
+        preview: "dist/img/galery/rectangle_5_copy_110.png"
     },
     {
         title: "Money Heist 13",
@@ -180,8 +180,8 @@ export const database = [
         audience: "72%",
         genres: "Crime, Thriller, Heist",
         cast: "Úrsula Corberó, Álvaro Morte, Alba Flores, Itziar Ituño",
-        img: "img/rounded_rectangle_2_17.png",
-        preview: "img/galery/rectangle_5_copy_529.png"
+        img: "dist/img/rounded_rectangle_2_17.png",
+        preview: "dist/img/galery/rectangle_5_copy_529.png"
     },
     {
         title: "Some shit 14",
@@ -193,8 +193,8 @@ export const database = [
         audience: "81%",
         genres: "Crime, Heist",
         cast: "Úrsula Morte, Alba Flores, Itziar Habenskiy",
-        img: "img/rounded_rectangle_2_17.png",
-        preview: "img/galery/rectangle_5_copy_413.png"
+        img: "dist/img/rounded_rectangle_2_17.png",
+        preview: "dist/img/galery/rectangle_5_copy_413.png"
     },
     {
         title: "Taykatuvan 15",
@@ -206,7 +206,7 @@ export const database = [
         audience: "81%",
         genres: "Crime, Heist",
         cast: "Alba Flores, Itziar Habenskiy",
-        img: "img/rounded_rectangle_2_17.png",
-        preview: "img/galery/rectangle_5_copy_237.png"
+        img: "dist/img/rounded_rectangle_2_17.png",
+        preview: "dist/img/galery/rectangle_5_copy_237.png"
     },
 ]

@@ -4,7 +4,7 @@ import { render } from './render';
 export const search = () => {
     const searchByNameInput = document.querySelector('.search__input')
     const searchByLabelBtns = document.querySelector('.menu__labels')
-    const searchByLabelAll = document.querySelectorAll('.menu__label-span')
+    const searchByLabelAll = document.querySelectorAll('.menu__label-a')
     const searchByTypeInput = document.querySelector('.menu__checkboxes')
     const searchByGenresInput = document.querySelector('.menu__genre select')
     const searchByParamsBlock = document.querySelector('.menu__search')

@@ -347,11 +347,12 @@ input::-webkit-input-placeholder {
   background-color: #ffffff;
 }
 
-.menu__labels span {
+.menu__labels a {
   padding-right: 30px;
+  color: #ffffff;
 }
 
-.active__label {
+.active__label a {
   color: red;
 }
 

@@ -14,8 +14,8 @@ export const render = (arr) => {
         <div class="galery__logo">${item.label}</div>
         <div class="galery__text">
             <div class="galery__name"><span>${item.title}</span> ${item.year}, ${item.type}</div>
-            <div class="galery__rating"><img src="img/tomatometer_fresh.149b5e8adc3_copy_91.png"
-                    alt=""><span>${item.tomato}</span><img src="img/aud_score_fresh.6c24d79faaf_copy_94.png"
+            <div class="galery__rating"><img src="dist/img/tomatometer_fresh.149b5e8adc3_copy_91.png"
+                    alt=""><span>${item.tomato}</span><img src="dist/img/aud_score_fresh.6c24d79faaf_copy_94.png"
                     alt=""><span>${item.audience}</span></div>
         </div>
         `;
